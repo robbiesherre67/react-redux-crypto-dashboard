@@ -10,29 +10,6 @@
 // NOTE: This slice handles ALL API communication.
 // React components stay clean and focused on UI.
 // =====================================================
-
-// =====================================================
-// cryptoSlice.js
-// -----------------------------------------------------
-// Manages:
-// - crypto coins data
-// - loading state
-// - error state
-// - async thunk for API requests
-//
-// =====================================================
-
-// =====================================================
-// cryptoSlice.js
-// -----------------------------------------------------
-// Manages:
-// - crypto coins data
-// - loading state
-// - error state
-// - async thunk for API requests
-//
-// =====================================================
-
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axiosClient from "../api/axiosClient";
 
